@@ -4,7 +4,11 @@ using System.Text;
 
 namespace ObjectOrientationClass.Encapsulation
 {
-    internal class AccountType
+    internal enum AccountType
     {
+        Savings,
+        Cheque,
+        Credit, 
+        Current
     }
 }

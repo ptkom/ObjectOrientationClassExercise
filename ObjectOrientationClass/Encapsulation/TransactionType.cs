@@ -4,7 +4,9 @@ using System.Text;
 
 namespace ObjectOrientationClass.Encapsulation
 {
-    internal class TransactionType
+    internal enum TransactionType
     {
+        Withdrawal,
+        Deposit
     }
 }

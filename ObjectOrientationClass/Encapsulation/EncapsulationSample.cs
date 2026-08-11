@@ -6,7 +6,7 @@ namespace ObjectOrientationClass.Encapsulation
 {
     internal class EncapsulationSample
     {
-        public void Run()
+        public static void Run()
         {
             DateTime expiryDate = new DateTime(2030, 10, 31);
             BankAccount bankAccount = new BankAccount(1234, "Barbie Roberts", AccountType.Savings, 3000000, 56789, expiryDate);
